@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#colrdiv {
+  width: 300px;
+  height: 300px;
+  margin-top:200px;
+  margin-left:500px;
+  background-color:white;
+  border : 1px solid;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+<div id="colrdiv">
+<p>Press the buttons to change the background color</p>
+  <button onclick="myFunction('red')">Red</button>
+  <button onclick="myFunction('blue')">Blue</button>
+  <button onclick="myFunction('orange')">Orange</button>
+  
+</div>
+
+<script>
+function myFunction(color) {
+    document.getElementById("colrdiv").style.backgroundColor =color;
+}
+</script>
+
+</body>
+</html>
